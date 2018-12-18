@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 50px;
+}
+figure{
+	width: 200px;
+	float: left;
+}
+.navegacion-principal{
+	float: right;
+	margin-top: 25px;
+}
+.navegacion-principal li{
+	display: inline;
+	padding: 10px;
+	background: purple;
+	margin: 5px;
+	border-radius: 8px;
+}
+.navegacion-principal li a{
+	text-decoration: none;
+	color: white;
+}
+.formulario-buscar{
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.formulario-buscar #cuadro-busqueda{
+	padding: 10px;
+	width: 200px;
+}
+.formulario-buscar #buscar{
+	padding: 10px;
+	background: white;
+}
+#banner{
+	height: 400px;
+	background: gray;
+}
+#banner h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	border-width: 10px;
+	border-style: none;
+	/*
+		valores de border-style:
+		-solid
+		-dashed
+		-dotted
+		-double
+		-ridge
+		-none
+	*/
+	border-color: orange;
+	/*border: 10px solid yellow;*/
+	position: relative;
+	top: 120px;
+	left:0;
+}
+#galeria{
+	width: 70%;
+	background: yellow;
+	float: left;
+}
+article{
+	width: 42%;
+	float: left;
+	border: 1px solid orange;
+	margin: 20px;
+	padding: 10px;
+}
+article img{
+	width: 200px;
+	float: right;
+}
+aside{
+	height: 700px;
+	width: 30%;
+	background: pink;
+	float: right;
+}
+footer{
+	height: 70px;
+	background: black;
+	text-align: center;
+	clear: both;
+	color: white;
+}
